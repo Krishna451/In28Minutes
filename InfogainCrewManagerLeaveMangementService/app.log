@@ -1,0 +1,806 @@
+2019-11-07 09:59:31,563 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.InfogainCrewManagerRosterService [main] No active profile set, falling back to default profiles: default
+2019-11-07 09:59:33,054 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-07 09:59:33,249 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 184ms. Found 2 repository interfaces.
+2019-11-07 09:59:34,243 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=345c491f-a6a3-394a-a81f-752871091c15
+2019-11-07 09:59:34,558 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fc9f9bbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-07 09:59:35,131 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2019-11-07 09:59:35,183 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-11-07 09:59:35,184 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-07 09:59:36,237 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-11-07 09:59:36,237 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 4533 ms
+2019-11-07 09:59:37,405 INFO org.mongodb.driver.cluster [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-07 09:59:37,406 INFO org.mongodb.driver.cluster [main] Adding discovered server localhost:27017 to client view of cluster
+2019-11-07 09:59:37,905 INFO org.mongodb.driver.connection [cluster-ClusterId{value='5dc39db1c64b930fda62505f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:3789}] to localhost:27017
+2019-11-07 09:59:37,920 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc39db1c64b930fda62505f', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11066200}
+2019-11-07 09:59:37,923 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc39db1c64b930fda62505f', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2019-11-07 09:59:38,020 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,028 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,038 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,039 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,050 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,052 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,053 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,053 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-07 09:59:38,762 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-07 09:59:38,762 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-07 09:59:38,781 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-07 09:59:38,782 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-07 09:59:39,329 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-07 09:59:40,794 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2019-11-07 09:59:40,886 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2019-11-07 09:59:41,115 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2019-11-07 09:59:41,115 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2019-11-07 09:59:41,375 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2019-11-07 09:59:41,376 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2019-11-07 09:59:41,794 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2019-11-07 09:59:42,050 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2019-11-07 09:59:42,050 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2019-11-07 09:59:42,051 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2019-11-07 09:59:42,051 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2019-11-07 09:59:42,051 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2019-11-07 09:59:42,051 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2019-11-07 09:59:42,053 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2019-11-07 09:59:43,028 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2019-11-07 09:59:43,034 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2019-11-07 09:59:43,045 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-07 09:59:43,056 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1573100983054 with initial instances count: 0
+2019-11-07 09:59:43,059 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application ROSTER with eureka with status UP
+2019-11-07 09:59:43,060 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1573100983060, current=UP, previous=STARTING]
+2019-11-07 09:59:43,064 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ROSTER/DT653.igglobal.com:roster:8082: registering service...
+2019-11-07 09:59:43,309 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2019-11-07 09:59:43,310 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8082
+2019-11-07 09:59:43,568 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ROSTER/DT653.igglobal.com:roster:8082 - registration status: 204
+2019-11-07 09:59:44,630 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.InfogainCrewManagerRosterService [main] Started InfogainCrewManagerRosterService in 15.961 seconds (JVM running for 20.693)
+2019-11-07 10:00:12,995 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2019-11-07 10:00:12,995 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2019-11-07 10:00:12,996 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2019-11-07 10:00:12,996 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2019-11-07 10:00:12,997 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2019-11-07 10:00:12,997 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2019-11-07 10:00:12,998 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2019-11-07 10:00:13,073 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2019-11-07 10:03:31,102 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-07 10:03:31,102 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-10] Initializing Servlet 'dispatcherServlet'
+2019-11-07 10:03:31,118 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-10] Completed initialization in 15 ms
+2019-11-07 10:03:31,425 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Getting all Roster Details.
+2019-11-07 10:03:31,781 INFO org.mongodb.driver.connection [http-nio-8082-exec-9] Opened connection [connectionId{localValue:2, serverValue:3791}] to localhost:27017
+2019-11-07 10:03:31,904 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Roster Details is present.
+2019-11-07 10:04:13,996 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-8] Getting all Roster Details.
+2019-11-07 10:04:14,001 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-8] Roster Details is present.
+2019-11-07 10:04:32,714 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-7] Getting all Roster Details.
+2019-11-07 10:04:32,718 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-7] Roster Details is present.
+2019-11-07 10:04:42,062 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:06:51,270 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-5] Getting all Roster Details.
+2019-11-07 10:06:51,274 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-5] Roster Details is present.
+2019-11-07 10:09:42,058 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:13:56,427 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Getting all Roster Details.
+2019-11-07 10:13:56,432 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Roster Details is present.
+2019-11-07 10:14:42,054 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:15:07,544 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Getting all Roster Details.
+2019-11-07 10:15:07,553 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Roster Details is present.
+2019-11-07 10:16:06,170 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-10] Getting all Roster Details.
+2019-11-07 10:16:06,174 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-10] Roster Details is present.
+2019-11-07 10:17:33,629 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-7] Getting all Hotac Details::
+2019-11-07 10:17:50,868 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-6] Getting all Hotac Details::
+2019-11-07 10:17:54,870 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-5] Getting all Roster Details.
+2019-11-07 10:17:54,874 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-5] Roster Details is present.
+2019-11-07 10:18:26,527 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-4] Getting all Roster Details.
+2019-11-07 10:18:26,531 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-4] Roster Details is present.
+2019-11-07 10:18:44,329 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Getting all Roster Details.
+2019-11-07 10:18:44,333 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Roster Details is present.
+2019-11-07 10:19:42,057 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:19:54,161 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Getting all Roster Details.
+2019-11-07 10:19:54,165 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Roster Details is present.
+2019-11-07 10:20:39,662 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-10] Getting all Roster Details.
+2019-11-07 10:20:39,666 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-10] Roster Details is present.
+2019-11-07 10:21:39,152 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Getting all Roster Details.
+2019-11-07 10:21:39,161 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Roster Details is present.
+2019-11-07 10:22:49,514 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-5] Getting all Roster Details.
+2019-11-07 10:22:49,519 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-5] Roster Details is present.
+2019-11-07 10:23:23,395 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-4] Getting all Roster Details.
+2019-11-07 10:23:23,399 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-4] Roster Details is present.
+2019-11-07 10:23:32,263 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Getting all Roster Details.
+2019-11-07 10:23:32,269 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Roster Details is present.
+2019-11-07 10:24:42,060 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:26:10,978 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Getting all Roster Details.
+2019-11-07 10:26:10,985 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Roster Details is present.
+2019-11-07 10:29:42,070 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:34:42,072 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:39:42,074 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:44:42,076 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:45:07,987 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Getting all Roster Details.
+2019-11-07 10:45:07,992 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Roster Details is present.
+2019-11-07 10:45:38,965 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-8] Getting all Roster Details.
+2019-11-07 10:45:38,969 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-8] Roster Details is present.
+2019-11-07 10:49:37,016 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-6] Getting all Roster Details.
+2019-11-07 10:49:37,020 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-6] Roster Details is present.
+2019-11-07 10:49:42,079 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:53:40,356 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Getting all Roster Details.
+2019-11-07 10:53:40,360 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-3] Roster Details is present.
+2019-11-07 10:54:18,350 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-2] Getting all Roster Details.
+2019-11-07 10:54:18,353 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-2] Roster Details is present.
+2019-11-07 10:54:42,081 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 10:55:04,119 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Getting all Roster Details.
+2019-11-07 10:55:04,123 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Roster Details is present.
+2019-11-07 10:59:42,086 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:00:13,712 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Getting all Roster Details.
+2019-11-07 11:00:13,716 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Roster Details is present.
+2019-11-07 11:01:07,703 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-7] Getting all Hotac Details::
+2019-11-07 11:04:42,087 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:07:57,088 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-5] Getting all Hotac Details::
+2019-11-07 11:09:42,088 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:14:42,089 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:19:42,093 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:23:51,677 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-2] Getting all Roster Details.
+2019-11-07 11:23:51,681 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-2] Roster Details is present.
+2019-11-07 11:24:42,100 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:26:24,515 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-9] Getting all Hotac Details::
+2019-11-07 11:28:36,413 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-7] Getting all Roster Details.
+2019-11-07 11:28:36,418 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-7] Roster Details is present.
+2019-11-07 11:29:42,104 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:34:42,105 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:38:07,419 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-4] Getting all Roster Details.
+2019-11-07 11:38:07,423 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-4] Roster Details is present.
+2019-11-07 11:39:42,135 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:43:52,264 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-2] Getting all Roster Details.
+2019-11-07 11:43:52,292 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-2] Roster Details is present.
+2019-11-07 11:45:44,300 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:50:44,124 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 11:55:43,733 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:00:43,734 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:05:43,737 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:10:43,739 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:15:56,321 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Getting all Roster Details.
+2019-11-07 12:15:56,359 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-9] Roster Details is present.
+2019-11-07 12:16:58,660 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:21:58,746 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:26:59,018 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:31:59,042 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:36:59,097 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:41:59,103 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:44:48,524 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-6] Getting all Hotac Details::
+2019-11-07 12:46:59,105 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:51:59,106 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 12:56:59,107 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:01:59,123 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:04:11,324 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Getting all Roster Details.
+2019-11-07 13:04:11,339 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-1] Roster Details is present.
+2019-11-07 13:04:40,807 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-9] Getting all Hotac Details::
+2019-11-07 13:06:01,276 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-6] Getting all Roster Details.
+2019-11-07 13:06:01,290 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-6] Roster Details is present.
+2019-11-07 13:06:59,125 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:09:04,249 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-3] Getting all Hotac Details::
+2019-11-07 13:11:59,122 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:16:59,123 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:21:59,124 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:24:52,375 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-10] Getting all Hotac Details::
+2019-11-07 13:28:03,917 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:33:04,152 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:38:04,277 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:43:04,325 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:48:04,328 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:53:04,334 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 13:56:14,414 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-7] Getting all Hotac Details::
+2019-11-07 13:59:10,869 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:04:11,069 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:09:11,234 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:14:11,237 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:19:11,241 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:24:11,244 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:29:11,245 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:34:11,248 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:40:26,657 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:45:27,011 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:50:27,188 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 14:55:27,190 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:00:27,198 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:05:27,234 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:10:27,286 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:15:27,276 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:15:55,540 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-10] Getting all Hotac Details::
+2019-11-07 15:16:43,617 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-9] Getting all Hotac Details::
+2019-11-07 15:20:27,273 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:25:27,277 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:29:55,100 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-6] Getting all Roster Details.
+2019-11-07 15:29:55,116 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.RosterController [http-nio-8082-exec-6] Roster Details is present.
+2019-11-07 15:30:27,295 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:35:27,295 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:40:27,296 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:45:27,298 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:50:27,327 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 15:55:27,364 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:00:27,425 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:05:27,437 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:10:27,451 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:14:03,180 INFO com.infogain.crewManager.InfogainCrewManagerRosterService.controller.HotecController [http-nio-8082-exec-3] Getting all Hotac Details::
+2019-11-07 16:15:27,471 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:20:27,472 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:25:27,469 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:30:27,483 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:35:27,495 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:40:27,512 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:45:27,533 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:51:58,039 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 16:56:58,042 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-07 17:01:57,956 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 14:40:21,188 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] No active profile set, falling back to default profiles: default
+2019-11-08 14:40:22,581 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-08 14:40:22,723 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 133ms. Found 1 repository interfaces.
+2019-11-08 14:40:23,710 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=a4c3e1ce-a09e-3ebc-a4d2-475a515bffa4
+2019-11-08 14:40:23,952 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e6aaed77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 14:40:24,863 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2019-11-08 14:40:24,945 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-11-08 14:40:24,946 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-08 14:40:26,143 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-11-08 14:40:26,147 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 4812 ms
+2019-11-08 14:40:27,602 INFO org.mongodb.driver.cluster [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-08 14:40:27,603 INFO org.mongodb.driver.cluster [main] Adding discovered server localhost:27017 to client view of cluster
+2019-11-08 14:40:27,884 INFO org.mongodb.driver.connection [cluster-ClusterId{value='5dc53103e633405277e3f9b5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:174}] to localhost:27017
+2019-11-08 14:40:27,899 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc53103e633405277e3f9b5', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9752100}
+2019-11-08 14:40:27,905 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc53103e633405277e3f9b5', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2019-11-08 14:40:28,060 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,070 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,074 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,076 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,098 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,101 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,103 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,103 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 14:40:28,579 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 14:40:28,580 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 14:40:28,594 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 14:40:28,596 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 14:40:29,357 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-08 14:40:30,740 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2019-11-08 14:40:30,877 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2019-11-08 14:40:31,192 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2019-11-08 14:40:31,193 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2019-11-08 14:40:31,533 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2019-11-08 14:40:31,534 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2019-11-08 14:40:31,995 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2019-11-08 14:40:32,153 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2019-11-08 14:40:32,154 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2019-11-08 14:40:32,154 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2019-11-08 14:40:32,155 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2019-11-08 14:40:32,155 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2019-11-08 14:40:32,155 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2019-11-08 14:40:32,155 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2019-11-08 14:40:32,597 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2019-11-08 14:40:32,605 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2019-11-08 14:40:32,611 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 14:40:32,624 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1573204232622 with initial instances count: 1
+2019-11-08 14:40:32,629 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application LEAVEMANAGEMENTSERVICE with eureka with status UP
+2019-11-08 14:40:32,631 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1573204232631, current=UP, previous=STARTING]
+2019-11-08 14:40:32,658 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083: registering service...
+2019-11-08 14:40:32,816 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2019-11-08 14:40:32,818 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8083
+2019-11-08 14:40:32,871 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083 - registration status: 204
+2019-11-08 14:40:32,944 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] Started InfogainCrewManagerLeaveManagementService in 14.745 seconds (JVM running for 17.031)
+2019-11-08 14:45:32,177 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 14:50:32,179 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:02:05,288 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] No active profile set, falling back to default profiles: default
+2019-11-08 15:02:06,899 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-08 15:02:07,113 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 200ms. Found 1 repository interfaces.
+2019-11-08 15:02:08,254 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=a4c3e1ce-a09e-3ebc-a4d2-475a515bffa4
+2019-11-08 15:02:08,622 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a4fe01c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 15:02:09,529 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2019-11-08 15:02:09,641 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-11-08 15:02:09,642 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-08 15:02:10,740 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-11-08 15:02:10,741 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 5369 ms
+2019-11-08 15:02:11,907 INFO org.mongodb.driver.cluster [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-08 15:02:11,908 INFO org.mongodb.driver.cluster [main] Adding discovered server localhost:27017 to client view of cluster
+2019-11-08 15:02:12,150 INFO org.mongodb.driver.connection [cluster-ClusterId{value='5dc5361b0bc68e0311e60d2b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:214}] to localhost:27017
+2019-11-08 15:02:12,166 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc5361b0bc68e0311e60d2b', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8550900}
+2019-11-08 15:02:12,169 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc5361b0bc68e0311e60d2b', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2019-11-08 15:02:12,336 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:12,352 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:12,355 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:12,355 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:12,374 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:12,377 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:12,378 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:12,379 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:02:13,094 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 15:02:13,095 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 15:02:13,119 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 15:02:13,119 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 15:02:14,181 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-08 15:02:16,567 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2019-11-08 15:02:16,703 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2019-11-08 15:02:17,086 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2019-11-08 15:02:17,087 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2019-11-08 15:02:17,523 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2019-11-08 15:02:17,524 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2019-11-08 15:02:18,089 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2019-11-08 15:02:18,246 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2019-11-08 15:02:18,246 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2019-11-08 15:02:18,247 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2019-11-08 15:02:18,247 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2019-11-08 15:02:18,248 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2019-11-08 15:02:18,248 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2019-11-08 15:02:18,248 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2019-11-08 15:02:18,785 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2019-11-08 15:02:18,799 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2019-11-08 15:02:18,804 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 15:02:18,812 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1573205538810 with initial instances count: 2
+2019-11-08 15:02:18,821 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application LEAVEMANAGEMENTSERVICE with eureka with status UP
+2019-11-08 15:02:18,823 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1573205538823, current=UP, previous=STARTING]
+2019-11-08 15:02:18,847 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083: registering service...
+2019-11-08 15:02:18,950 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083 - registration status: 204
+2019-11-08 15:02:19,170 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2019-11-08 15:02:19,176 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8083
+2019-11-08 15:02:19,343 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] Started InfogainCrewManagerLeaveManagementService in 17.606 seconds (JVM running for 20.269)
+2019-11-08 15:07:18,252 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:09:24,010 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.29.123:8081/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 26 common frames omitted
+2019-11-08 15:09:24,012 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+2019-11-08 15:09:26,949 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.29.123:8081/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_202]
+	at java.net.SocketInputStream.socketRead(Unknown Source) ~[na:1.8.0_202]
+	at java.net.SocketInputStream.read(Unknown Source) ~[na:1.8.0_202]
+	at java.net.SocketInputStream.read(Unknown Source) ~[na:1.8.0_202]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.12.jar:4.4.12]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.12.jar:4.4.12]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276) ~[httpcore-4.4.12.jar:4.4.12]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.12.jar:4.4.12]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294) ~[httpcore-4.4.12.jar:4.4.12]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.12.jar:4.4.12]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.12.jar:4.4.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 common frames omitted
+2019-11-08 15:09:26,962 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2019-11-08 15:09:29,018 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.29.123:8081/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 common frames omitted
+2019-11-08 15:09:29,019 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+2019-11-08 15:09:29,034 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+2019-11-08 15:09:31,968 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.29.123:8081/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+2019-11-08 15:09:31,969 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+2019-11-08 15:09:31,974 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+2019-11-08 15:10:04,061 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.29.123:8081/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 common frames omitted
+2019-11-08 15:10:04,062 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+2019-11-08 15:10:04,065 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+2019-11-08 15:10:06,990 ERROR com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://192.168.29.123:8081/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.10.jar:4.5.10]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.10.jar:4.5.10]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+2019-11-08 15:10:06,991 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.29.123:8081 timed out
+2019-11-08 15:10:06,992 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:LeaveManagementService:8083 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149) ~[eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1103) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:985) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497) [eureka-client-1.9.13.jar:1.9.13]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464) [eureka-client-1.9.13.jar:1.9.13]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_202]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_202]
+2019-11-08 15:15:03,374 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] No active profile set, falling back to default profiles: default
+2019-11-08 15:15:04,406 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-08 15:15:04,594 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 174ms. Found 1 repository interfaces.
+2019-11-08 15:15:05,799 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=a4c3e1ce-a09e-3ebc-a4d2-475a515bffa4
+2019-11-08 15:15:06,141 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0f49fcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 15:15:06,862 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2019-11-08 15:15:06,933 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-11-08 15:15:06,936 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-08 15:15:07,978 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-11-08 15:15:07,979 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 4532 ms
+2019-11-08 15:15:08,827 INFO org.mongodb.driver.cluster [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-08 15:15:08,828 INFO org.mongodb.driver.cluster [main] Adding discovered server localhost:27017 to client view of cluster
+2019-11-08 15:15:09,012 INFO org.mongodb.driver.connection [cluster-ClusterId{value='5dc5392437607d169f0f8beb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:240}] to localhost:27017
+2019-11-08 15:15:09,064 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc5392437607d169f0f8beb', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=41866600}
+2019-11-08 15:15:09,068 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc5392437607d169f0f8beb', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2019-11-08 15:15:09,194 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:09,210 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:09,213 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:09,215 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:09,239 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:09,241 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:09,242 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:09,242 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:15:10,048 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 15:15:10,049 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 15:15:10,064 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 15:15:10,064 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 15:15:10,720 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-08 15:15:12,525 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2019-11-08 15:15:12,695 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2019-11-08 15:15:13,081 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2019-11-08 15:15:13,083 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2019-11-08 15:15:13,365 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2019-11-08 15:15:13,365 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2019-11-08 15:15:13,957 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2019-11-08 15:15:14,193 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2019-11-08 15:15:14,194 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2019-11-08 15:15:14,194 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2019-11-08 15:15:14,195 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2019-11-08 15:15:14,195 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2019-11-08 15:15:14,195 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2019-11-08 15:15:14,196 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2019-11-08 15:15:15,959 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2019-11-08 15:15:15,983 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2019-11-08 15:15:15,989 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 15:15:15,999 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1573206315996 with initial instances count: 0
+2019-11-08 15:15:16,485 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application LEAVEMANAGEMENTSERVICE with eureka with status UP
+2019-11-08 15:15:16,486 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1573206316486, current=UP, previous=STARTING]
+2019-11-08 15:15:16,541 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:leaveManagementService:8083: registering service...
+2019-11-08 15:15:17,211 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2019-11-08 15:15:17,258 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8083
+2019-11-08 15:15:17,511 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:leaveManagementService:8083 - registration status: 204
+2019-11-08 15:15:17,680 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] Started InfogainCrewManagerLeaveManagementService in 17.484 seconds (JVM running for 19.788)
+2019-11-08 15:15:45,985 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2019-11-08 15:15:45,985 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2019-11-08 15:15:45,986 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2019-11-08 15:15:45,986 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2019-11-08 15:15:45,986 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2019-11-08 15:15:45,986 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2019-11-08 15:15:45,986 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2019-11-08 15:15:46,213 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2019-11-08 15:20:14,207 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:22:05,223 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] No active profile set, falling back to default profiles: default
+2019-11-08 15:22:06,360 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-08 15:22:06,570 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 201ms. Found 1 repository interfaces.
+2019-11-08 15:22:08,119 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=a4c3e1ce-a09e-3ebc-a4d2-475a515bffa4
+2019-11-08 15:22:08,499 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$61cba0e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 15:22:09,271 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8083 (http)
+2019-11-08 15:22:09,352 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-11-08 15:22:09,355 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-08 15:22:10,488 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-11-08 15:22:10,489 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 5196 ms
+2019-11-08 15:22:11,305 INFO org.mongodb.driver.cluster [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-11-08 15:22:11,309 INFO org.mongodb.driver.cluster [main] Adding discovered server localhost:27017 to client view of cluster
+2019-11-08 15:22:11,537 INFO org.mongodb.driver.connection [cluster-ClusterId{value='5dc53acba448d27fc946707d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:248}] to localhost:27017
+2019-11-08 15:22:11,550 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc53acba448d27fc946707d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8641600}
+2019-11-08 15:22:11,553 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5dc53acba448d27fc946707d', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2019-11-08 15:22:11,731 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:11,747 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:11,750 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:11,753 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:11,774 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:11,777 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:11,778 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:11,778 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2019-11-08 15:22:12,355 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 15:22:12,356 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 15:22:12,368 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-11-08 15:22:12,369 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-08 15:22:12,855 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-08 15:22:14,267 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2019-11-08 15:22:14,387 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2019-11-08 15:22:14,677 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2019-11-08 15:22:14,679 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2019-11-08 15:22:14,984 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2019-11-08 15:22:14,985 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2019-11-08 15:22:15,421 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2019-11-08 15:22:15,561 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2019-11-08 15:22:15,562 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2019-11-08 15:22:15,563 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2019-11-08 15:22:15,563 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2019-11-08 15:22:15,563 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2019-11-08 15:22:15,563 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2019-11-08 15:22:15,563 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2019-11-08 15:22:16,464 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2019-11-08 15:22:16,476 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2019-11-08 15:22:16,483 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-08 15:22:16,540 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1573206736538 with initial instances count: 0
+2019-11-08 15:22:16,785 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application LEAVEMANAGEMENTSERVICE with eureka with status UP
+2019-11-08 15:22:16,786 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1573206736786, current=UP, previous=STARTING]
+2019-11-08 15:22:16,818 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:leaveManagementService:8083: registering service...
+2019-11-08 15:22:17,298 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8083 (http) with context path ''
+2019-11-08 15:22:17,299 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8083
+2019-11-08 15:22:17,769 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LEAVEMANAGEMENTSERVICE/DT503.igglobal.com:leaveManagementService:8083 - registration status: 204
+2019-11-08 15:22:18,449 INFO com.infogain.crewManager.InfogainCrewManagerLeaveManagementService.InfogainCrewManagerLeaveManagementService [main] Started InfogainCrewManagerLeaveManagementService in 16.596 seconds (JVM running for 18.988)
+2019-11-08 15:22:46,479 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2019-11-08 15:22:46,480 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2019-11-08 15:22:46,481 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2019-11-08 15:22:46,481 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2019-11-08 15:22:46,482 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2019-11-08 15:22:46,482 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2019-11-08 15:22:46,483 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2019-11-08 15:22:46,668 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2019-11-08 15:27:15,572 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:31:48,591 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8083-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-08 15:31:48,591 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-10] Initializing Servlet 'dispatcherServlet'
+2019-11-08 15:31:48,610 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8083-exec-10] Completed initialization in 18 ms
+2019-11-08 15:31:49,172 INFO org.mongodb.driver.connection [http-nio-8083-exec-10] Opened connection [connectionId{localValue:2, serverValue:250}] to localhost:27017
+2019-11-08 15:32:15,578 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:37:15,584 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:42:15,587 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:47:15,593 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:52:15,608 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 15:57:15,615 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 16:02:15,618 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2019-11-08 16:07:15,622 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
