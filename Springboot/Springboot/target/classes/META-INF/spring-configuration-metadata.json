@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "fcm",
+      "type": "com.fcm.demo.Springboot.model.FcmSettings",
+      "sourceType": "com.fcm.demo.Springboot.model.FcmSettings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fcm.service-account-file",
+      "type": "java.lang.String",
+      "sourceType": "com.fcm.demo.Springboot.model.FcmSettings"
+    }
+  ],
+  "hints": []
+}
